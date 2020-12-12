@@ -1,7 +1,9 @@
 from .cityscapes import CitySegmentation
+from .lip_parsing import LIPSegmentation
 
 datasets = {
     'citys': CitySegmentation,
+    'lips': LIPSegmentation
 }
 
 
